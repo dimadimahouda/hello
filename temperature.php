@@ -8,14 +8,15 @@ $class = 'success';
 <body>
 <p>
     <?php
-    if ($temp== 25 ) {
+    /*if ($temp== 25 ) {
         echo "warm";
         $class = "success";
-    }
+    }*/
+    echo "warm";
     ?>
 </p>
-<!--<div class="alert alert-success" role="alert">-->
-<!--    A simple primary alert—check it out!-->
-<!--    <i class="fa fa-id-card" aria-hidden="true"></i>-->
-<!--</div>-->
+<div class="alert alert-success" role="alert">
+    A simple primary alert—check it out!
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+</div>
 </body>
