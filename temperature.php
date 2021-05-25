@@ -2,21 +2,22 @@
 $titlePage='temperature';
 require_once 'fragment/header.php';
 $temp=25;
-$class = 'success';
+$class = "success";
+$text="warm"
 ?>
 
 <body>
 <p>
     <?php
-    /*if ($temp== 25 ) {
-        echo "warm";
+    if ($temp== 25 ) {
+        $text="warm";
         $class = "success";
-    }*/
-    echo "warm";
+    }
+
     ?>
 </p>
-<div class="alert alert-success" role="alert">
-    A simple primary alert—check it out!
+<div class="alert alert-sucess>" role="alert">
+    text
     <i class="fa fa-id-card" aria-hidden="true"></i>
 </div>
 </body>
