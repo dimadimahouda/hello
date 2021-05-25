@@ -14,7 +14,7 @@ $class = 'success';
     }
     ?>
 </p>
-<div class="alert alert-<?$class" role="alert">
+<div class="alert alert-success" role="alert">
     A simple primary alert—check it out!
     <i class="fa fa-id-card" aria-hidden="true"></i>
 </div>
