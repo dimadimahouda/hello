@@ -2,7 +2,7 @@
 $titlePage='temperature';
 require_once 'fragment/header.php';
 $temp=25;
-$class = '';
+$class = 'success';
 ?>
 
 <body>
@@ -14,7 +14,7 @@ $class = '';
     }
     ?>
 </p>
-<div class="alert alert-?=class" role="alert">
+<div class="alert alert-success" role="alert">
     A simple primary alert—check it out!
     <i class="fa fa-id-card" aria-hidden="true"></i>
 </div>
