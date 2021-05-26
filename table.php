@@ -63,7 +63,8 @@ $nom="hellooooo";
 echo $nom;
 
 ?>
-<table class="table table-striped table-bordered table-hover">
+<table class="table table-striped table-bordered table-hover table-dark">
+    <thead class="thead-light">
 <tr>
     <td>
         char
@@ -71,7 +72,7 @@ echo $nom;
     <td>
         occurence
     </td>
-</tr>
+</tr></thead>
  <?php
 
 foreach(count_chars($nom,1) as $character => $number){
@@ -85,8 +86,20 @@ foreach(count_chars($nom,1) as $character => $number){
 }
 ?>
 </table >
+<?php
+$arr = array(1, 2, 3, 4);
+$i=0;
+foreach ($arr as &$value) {
+    $value = $value * 2;
+
+    echo $arr[$i];
+    $i=$i+1;
+}
+// $arr is now array(2, 4, 6, 8)
+unset($value); // break the reference with the last element
+?>
 <div class="alert alert-success" role="alert">
-    hello
+    hello it's me houda
     <!--    <i class="fa fa-meetup" aria-hidden="true"></i>-->
 
 </div>
